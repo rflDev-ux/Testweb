@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maison Aurelle | Fine Dining Restaurant</title>
+<meta name="description" content="Maison Aurelle is a fine dining restaurant serving seasonal French-inspired tasting menus, a considered wine list and private dining. Reserve your table online.">
+<meta property="og:title" content="Maison Aurelle | Fine Dining Restaurant">
+<meta property="og:description" content="Seasonal French-inspired cuisine in an intimate candlelit dining room.">
+<meta property="og:type" content="restaurant">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Maison Aurelle","servesCuisine":"French","priceRange":"$$$$","openingHours":["Tu-Th 18:00-22:30","Fr-Sa 18:00-23:30","Su 12:00-16:00"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home" aria-label="Maison Aurelle home"><span class="logo-mark">A</span><span>Maison Aurelle</span></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="links"><span></span><span></span></button>
+  <nav class="links" id="links" aria-label="Main">
+    <a href="#about">About</a><a href="#signature">Signature</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a>
+    <a class="btn btn-sm" href="#reserve">Reserve</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="hero-bg" data-img="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1920&q=70"></div>
+  <div class="hero-inner">
+    <p class="kicker">Seasonal French cuisine &middot; Since 2011</p>
+    <h1>Dinner, composed<br><em>by candlelight.</em></h1>
+    <p class="lead">A twenty-six seat dining room, a kitchen led by Chef Étienne Aurelle, and a cellar of 600 bottles.</p>
+    <div class="hero-cta"><a class="btn" href="#reserve">Reserve a table</a><a class="btn btn-ghost" href="#menu">View the menu</a></div>
+  </div>
+  <a class="scroll" href="#about" aria-label="Scroll to About"></a>
+</section>
+
+<section class="sec about" id="about">
+  <div class="wrap split">
+    <div class="about-img"><img data-src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=70" alt="Candlelit dining room at Maison Aurelle" width="900" height="1100"><span class="tag">Est. 2011</span></div>
+    <div>
+      <h2>A table worth the evening</h2>
+      <p>Maison Aurelle began as a single room with six tables and a conviction: that great cooking needs time, good produce and a quiet place to be enjoyed.</p>
+      <p>Today the menu follows the market. Fish arrives from Brittany and Cornwall, vegetables from two farms within an hour of the kitchen, and every sauce is built from stock we simmer for days.</p>
+      <ul class="facts"><li><strong>26</strong> seats</li><li><strong>600</strong> bottles</li><li><strong>1</strong> Michelin Bib Gourmand</li></ul>
+      <a class="btn btn-ghost" href="#reserve">Book your evening</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark" id="signature">
+  <div class="wrap">
+    <div class="head"><h2>Signature dishes</h2><p>Three plates that have stayed on the menu since the first year.</p></div>
+    <div class="sig">
+      <article class="card"><div class="ph"><img data-src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=70" alt="Seared beef fillet with red wine jus" width="800" height="600"></div><div class="cb"><h3>Beef Fillet Rossini</h3><p>Aged tenderloin, seared foie gras, black truffle, Madeira jus.</p><span class="price">$84</span></div></article>
+      <article class="card"><div class="ph"><img data-src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=70" alt="Pan-seared salmon with greens" width="800" height="600"></div><div class="cb"><h3>Line-Caught Sea Bass</h3><p>Crisp skin, fennel purée, beurre blanc, Oscietra caviar.</p><span class="price">$68</span></div></article>
+      <article class="card"><div class="ph"><img data-src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=70" alt="Plated gourmet dessert" width="800" height="600"></div><div class="cb"><h3>Valrhona Soufflé</h3><p>Dark chocolate, tonka bean crème anglaise, gold leaf.</p><span class="price">$26</span></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="menu">
+  <div class="wrap narrow">
+    <div class="head"><h2>The menu</h2><p>Menu changes with the seasons. Please tell us about any allergies when you book.</p></div>
+    <div class="tabs" role="tablist" id="tabs" aria-label="Menu categories"></div>
+    <div class="menu-list" id="menuList" aria-live="polite"></div>
+    <p class="note">Tasting menu: seven courses $165, with wine pairing $245. Available for the full table only.</p>
+  </div>
+</section>
+
+<section class="sec dark" id="gallery">
+  <div class="wrap">
+    <div class="head"><h2>Inside the house</h2></div>
+    <div class="gal" id="gal">
+      <button class="g g1"><img data-src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&fit=crop&w=1000&q=70" alt="Main dining room" width="1000" height="700"></button>
+      <button class="g"><img data-src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=700&q=70" alt="Plated starter" width="700" height="700"></button>
+      <button class="g"><img data-src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=70" alt="Roasted main course" width="700" height="700"></button>
+      <button class="g g4"><img data-src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1000&q=70" alt="Bar and cellar" width="1000" height="700"></button>
+      <button class="g"><img data-src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=700&q=70" alt="Seasonal plate" width="700" height="700"></button>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="head"><h2>What guests say</h2></div>
+    <div class="rev">
+      <figure><blockquote>The sea bass alone is worth the trip. Service was warm without ever being fussy.</blockquote><figcaption>Camille R.<span>Anniversary dinner</span></figcaption></figure>
+      <figure><blockquote>The best evening we have had in years. The sommelier found us a bottle we still talk about.</blockquote><figcaption>James &amp; Priya T.<span>Tasting menu</span></figcaption></figure>
+      <figure><blockquote>We held a private dinner for twelve. Every course arrived exactly on time. Faultless.</blockquote><figcaption>Daniel O.<span>Private dining</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark" id="reserve">
+  <div class="wrap split form-wrap">
+    <div>
+      <h2>Reserve a table</h2>
+      <p>Complete the form and we will open WhatsApp with your request ready to send. We confirm every booking personally within a few hours.</p>
+      <p class="small">Parties of 8 or more: please message us directly for private dining.</p>
+    </div>
+    <form id="form" novalidate>
+      <div class="row">
+        <label>Full name<input name="name" type="text" autocomplete="name" required><small class="err"></small></label>
+        <label>Phone<input name="phone" type="tel" autocomplete="tel" required placeholder="+1 555 000 0000"><small class="err"></small></label>
+      </div>
+      <div class="row">
+        <label>Date<input name="date" type="date" required><small class="err"></small></label>
+        <label>Time<select name="time" required><option value="">Select time</option></select><small class="err"></small></label>
+      </div>
+      <label>Guests<select name="guests" required><option value="">Select party size</option></select><small class="err"></small></label>
+      <label>Special requests <em>(optional)</em><textarea name="notes" rows="3" maxlength="300"></textarea></label>
+      <button class="btn" type="submit">Send via WhatsApp</button>
+      <p class="status" id="status" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<section class="sec" id="visit">
+  <div class="wrap split">
+    <div>
+      <h2>Find us</h2>
+      <address>
+        <strong>Maison Aurelle</strong><br>
+        14 Rue des Lilas<br>New York, NY 10012
+      </address>
+      <table class="hours"><caption class="sr">Opening hours</caption>
+        <tr><th>Tuesday – Thursday</th><td>6:00 pm – 10:30 pm</td></tr>
+        <tr><th>Friday – Saturday</th><td>6:00 pm – 11:30 pm</td></tr>
+        <tr><th>Sunday</th><td>12:00 pm – 4:00 pm</td></tr>
+        <tr><th>Monday</th><td>Closed</td></tr>
+      </table>
+      <div class="hero-cta"><a class="btn wa" id="waBtn" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a><a class="btn btn-ghost" id="dirBtn" href="#" target="_blank" rel="noopener">Get directions</a></div>
+    </div>
+    <div class="map"><iframe title="Map showing Maison Aurelle" id="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="logo" href="#home"><span class="logo-mark">A</span><span>Maison Aurelle</span></a>
+    <nav aria-label="Footer"><a href="#about">About</a><a href="#menu">Menu</a><a href="#reserve">Reserve</a><a href="#visit">Visit</a></nav>
+    <p>&copy; <span id="yr"></span> Maison Aurelle. Please enjoy responsibly.</p>
+  </div>
+</footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer"><button class="lb-x" id="lbx" aria-label="Close image">&times;</button><img alt="" id="lbi"></div>
+<script src="script.js"></script>
+</body>
+</html>
